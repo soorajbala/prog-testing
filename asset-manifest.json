@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/soorajbala/prog-testing/static/css/main.5f361e03.chunk.css",
+    "main.js": "/soorajbala/prog-testing/static/js/main.0dead3da.chunk.js",
+    "main.js.map": "/soorajbala/prog-testing/static/js/main.0dead3da.chunk.js.map",
+    "runtime-main.js": "/soorajbala/prog-testing/static/js/runtime-main.17144ca0.js",
+    "runtime-main.js.map": "/soorajbala/prog-testing/static/js/runtime-main.17144ca0.js.map",
+    "static/js/2.01f22b3e.chunk.js": "/soorajbala/prog-testing/static/js/2.01f22b3e.chunk.js",
+    "static/js/2.01f22b3e.chunk.js.map": "/soorajbala/prog-testing/static/js/2.01f22b3e.chunk.js.map",
+    "index.html": "/soorajbala/prog-testing/index.html",
+    "precache-manifest.f05df2e0af7756a03dd30940a4e1af43.js": "/soorajbala/prog-testing/precache-manifest.f05df2e0af7756a03dd30940a4e1af43.js",
+    "service-worker.js": "/soorajbala/prog-testing/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/soorajbala/prog-testing/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.01f22b3e.chunk.js.LICENSE.txt": "/soorajbala/prog-testing/static/js/2.01f22b3e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/soorajbala/prog-testing/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17144ca0.js",
+    "static/js/2.01f22b3e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0dead3da.chunk.js"
+  ]
+}
