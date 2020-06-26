@@ -7,7 +7,7 @@ function ScrollableCards({cards}) {
   return (
     <div className="ScrollableCards">
       {
-        cards && cards.content && cards.content.map(card => <Card card={card} />)
+        cards && cards.content && cards.content.map((card, index) => <Card key={index} card={card} />)
       }
     </div>
   );
