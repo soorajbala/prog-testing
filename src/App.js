@@ -10,15 +10,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      pageData: API.page
+      pageData: API.page || {}
     }
   }
 
   render() {
     return (
       <div className="App">
-      <Header title={this.state.pageData.title} />
-      <SrollableCards cards={this.state.pageData["content-items"]} />
+        { this.state.pageData && this.state.pageData.title && <Header title={this.state.pageData.title} /> }
+        { this.state.pageData && this.state.pageData["content-items"] && <SrollableCards cards={this.state.pageData["content-items"]} />}
     </div>
     );
   }

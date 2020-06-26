@@ -4,14 +4,14 @@ import search from '../Slices/search.png';
 
 import './Header.scss';
 
-function Header() {
+function Header({title}) {
   return (
     <div className="Header">
       <h1 className="Header__headline-wrap">
         <button className="Header__back-btn">
           <img className="Header__back-btn-icon" src={back} alt="Back" />
         </button>
-        Romantic Comedy
+        {title}
       </h1>
       <button className="Header__search-btn">
         <img className="Header__search-btn-icon" src={search} alt="Search" />
