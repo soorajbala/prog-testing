@@ -1,0 +1,35 @@
+.Header {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+
+  &__headline-wrap {
+    font-size: 24pt;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    margin: 0;
+  }
+
+  &__back-btn,
+  &__search-btn {
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  &__back-btn {
+    margin-right: 12px;
+  }
+
+  &__back-btn-icon {
+    height: 24px;
+  }
+
+  &__search-btn-icon {
+    height: 24px;
+  }
+}
